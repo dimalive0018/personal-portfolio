@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply box-border;
+        @apply m-0;
+        font-family: 'Alfa Slab One', cursive;
+        scroll-behavior: smooth;
+    }
+
+    a {
+        font-family: 'Lobster', cursive;
+    }
+
+    li {
+        @apply cursor-pointer;
+        @apply px-5;
+        @apply py-5;
+        @apply hover:scale-125;
+    }
+
+    textarea {
+        @apply resize-none;
+    }
+}
